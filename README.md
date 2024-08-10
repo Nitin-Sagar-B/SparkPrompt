@@ -2,7 +2,7 @@
 
 **Spark Prompt** is a cutting-edge tool designed to enhance the process of creating, evaluating, and refining problem statements and prompts. Powered by LangChain and the Gemini API, Spark Prompt provides a seamless experience for generating precise and contextually relevant prompts across various domains.
 
-Live Demo: 
+Live Demo: <a href="https://sparkprompt.streamlit.app/">SparkPrompt</a>
 
 ## 🌟 Features
 
