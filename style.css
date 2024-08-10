@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@400&display=swap');
+
+body {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF; /* Change text color to white for better contrast */
+    background-color: #000000; /* Set background color to black */
+}
+
+h1, h2, h3, h4, h5, h6, p, div, span {
+    font-family: 'Tomorrow', sans-serif !important;
+    color: #FFFFFF; /* Change text color to white for better contrast */
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: #000000; /* Set the background color of the main app container to black */
+}
+
+[data-testid="stHeader"] {
+    background-color: #000000; /* Set the background color of the header to black */
+}
+
+.stMarkdown, .stTextInput, .stButton, .stFileUploader {
+    color: #FFFFFF; /* Ensure text color is white for readability */
+}
