@@ -16,7 +16,7 @@ def home():
         os.environ['GOOGLE_API_KEY'] = api_key
         
         # Initialize the Google Generative AI model
-        model = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+        model = ChatGoogleGenerativeAI(model="models/gemini-2.0-flash")
 
         # Initialize session state variables
         if 'problem_statement' not in st.session_state:
@@ -28,7 +28,7 @@ def home():
 
         # Step 1: User inputs
         st.subheader("Select Domain and Input Skills:")
-        domain = st.selectbox("Select Domain", ["AI", "Data Science", "Web Development", "Machine Learning", "Sales & Marketing", "VLSI"])
+        domain = st.selectbox("Select Domain", ["AI", "Data Science", "Web Development", "Machine Learning", "Sales & Marketing", "Other"])
         skills = st.text_input("Enter your skills (comma-separated)")
 
         if st.button("Generate Problem Statement"):
